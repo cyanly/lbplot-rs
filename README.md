@@ -1,4 +1,4 @@
-# Limit OrderBook Chart with Heatmap Visualisation
+# Limit OrderBook Chart with Heatmap (SPA web with No Javascript)
 
 ![image](https://github.com/cyanly/lbplot-rs/assets/5181446/aff4d38d-5fe3-4647-9b6e-9293e278be35)
 
