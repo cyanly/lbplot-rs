@@ -1,5 +1,8 @@
 # Limit OrderBook Chart with Heatmap Visualisation
 
+![image](https://github.com/cyanly/lbplot-rs/assets/5181446/aff4d38d-5fe3-4647-9b6e-9293e278be35)
+
+
 This project demonstrate heatmap visualisation tool for Limit OrderBook. It combines order book data and heatmap visualization to offer unique insights into market dynamics.
 
 ## Demo
