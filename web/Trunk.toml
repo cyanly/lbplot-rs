@@ -1,0 +1,7 @@
+[build]
+target = "index.html"
+dist = "dist"
+minify = "on_release"
+
+[serve]
+port = 8080

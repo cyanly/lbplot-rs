@@ -1,0 +1,7 @@
+target
+dist
+site/public/*
+.vscode
+.idea/
+.DS_Store
+/vendor

@@ -1,0 +1,43 @@
+[package]
+name = "web"
+version = "0.1.0"
+authors = ["Chao Yan <chao@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.83"
+console_error_panic_hook = "0.1.7"
+plotters = "0.3.5"
+plotters-canvas = "0.3.0"
+serde_json = "1.0.64"
+serde = { version = "1.0", features = ["derive"] }
+wasm-bindgen = "0.2.92"
+wee_alloc = "0.4.5"
+yew = { version = "0.21.0", features = ["csr"] }
+yew-hooks = "0.3.1"
+rust_decimal = "1.35.0"
+chrono = "0.4.38"
+
+[dependencies.web-sys]
+version = "0.3.39"
+features = [
+    "Storage",
+    "Headers",
+    "Request",
+    "RequestInit",
+    "Document",
+    "RequestMode",
+    "Response",
+    "Window",
+    "HtmlElement",
+    "CanvasRenderingContext2d",
+    "HtmlCanvasElement",
+    "WebSocket",
+    "console",
+]
+
+[profile.release]
+panic = 'abort'
+codegen-units = 1
+opt-level = 'z'
+lto = true
