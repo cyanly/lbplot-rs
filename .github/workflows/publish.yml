@@ -31,7 +31,7 @@ jobs:
     - name: Install WASM toolchain
       run: rustup target add wasm32-unknown-unknown
     - name: Install trunk
-      run: cargo binstall trunk
+      run: cargo install trunk
     - name: Build project
       run: trunk build --release --verbose --public-url /${{ github.event.repository.name }}
     - name: Upload artifact
