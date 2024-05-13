@@ -31,11 +31,11 @@ jobs:
     - name: Install WASM toolchain
       run: rustup target add wasm32-unknown-unknown
     - name: Install trunk
-      run: cargo install trunk
+      run: cargo binstall trunk
     - name: Build project
       run: trunk build --release --verbose --public-url /${{ github.event.repository.name }}
     - name: Upload artifact
-      uses: actions/upload-pages-artifact@v2
+      uses: actions/upload-pages-artifact@v3
       with:
         path: 'web/dist'
 
@@ -57,4 +57,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
