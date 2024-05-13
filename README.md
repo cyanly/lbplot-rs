@@ -1,11 +1,11 @@
 # Limit OrderBook Chart with Heatmap
 
 
-> This project demonstrate heatmap visualisation tool for Limit OrderBook. It combines order book data and heatmap visualization to offer unique insights into market dynamics. It attempts to visualise how much money is waiting to be executed on each price level. Making it easier for human to analyse fake liquidity and useful to assist reverse engineering other market participants algorithms. 
+> This project demonstrates heatmap visualisation tool for Limit OrderBook. It combines order book data and heatmap visualisation to offer unique insights into market dynamics. It attempts to visualise how much money is waiting to be executed on each price level. Making it easier for human to analyse fake liquidity and useful to assist reverse engineering other market participants' algorithms. 
 
 - [x] SPA web with No Javascript
 - [x] No `node_modules` were used in the making of this web app.
-- [x] Dark mode
+- [x] Dark/Light theme switch
 - [ ] For demo purpose no server: no historical data load
 
 
@@ -14,6 +14,7 @@
 - 📦 Rust (wasm-bindgen + web_sys)
 - 📦 Yew https://yew.rs/
 - 📦 Yew Hooks https://jetli.github.io/yew-hooks/#/
+- 📦 Tailwind CSS
 - 📦 Plotters-rs https://github.com/plotters-rs/plotters
 - 🏗 Trunk https://trunkrs.dev/
 - 📈 Binance market data websocket
