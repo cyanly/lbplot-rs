@@ -11,7 +11,7 @@ static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
 #[function_component]
 pub fn App() -> Html {
     let links = [
-        ("Github", "https://github.com/cyanly/gotrade"),
+        ("Github", "https://github.com/cyanly/lbplot-rs"),
         ("Blog", "https://cyan.ly/blog"),
     ];
 
