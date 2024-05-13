@@ -11,7 +11,8 @@ This project demonstrate heatmap visualisation tool for Limit OrderBook. It comb
 ---
 
 
-![image](https://github.com/cyanly/lbplot-rs/assets/5181446/aff4d38d-5fe3-4647-9b6e-9293e278be35)
+<img width="1725" alt="image" src="https://github.com/cyanly/lbplot-rs/assets/5181446/5605bca0-57bc-416f-a48e-d65fae58a00d">
+
 
 
 
