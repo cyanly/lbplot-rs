@@ -9,6 +9,17 @@
 - [ ] For demo purpose no server: no historical data load
 
 
+## Live Demo
+
+[https://cyan.ly/lbplot-rs/](https://cyan.ly/lbplot-rs/)
+
+---
+
+
+<img width="1725" alt="image" src="https://github.com/cyanly/lbplot-rs/assets/5181446/5605bca0-57bc-416f-a48e-d65fae58a00d">
+
+
+
 ### Made possible with
 
 - 📦 Rust (wasm-bindgen + web_sys)
@@ -19,17 +30,6 @@
 - 🏗 Trunk https://trunkrs.dev/
 - 📈 Binance market data websocket
 
----
-
-
-<img width="1725" alt="image" src="https://github.com/cyanly/lbplot-rs/assets/5181446/5605bca0-57bc-416f-a48e-d65fae58a00d">
-
-
-
-
-## Live Demo
-
-[https://cyan.ly/lbplot-rs/](https://cyan.ly/lbplot-rs/)
 
 ## Getting Started
 
@@ -44,7 +44,7 @@
 1. **Trunk needs to be installed at path:**
 
    ```bash
-   cargo binstall trunk
+   cargo install trunk
    ```
 
 2. **Run in local browser:**
